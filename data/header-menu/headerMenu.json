@@ -1,0 +1,508 @@
+{
+  "header":{
+    "code":0
+  },
+  "data":{
+      "mode":"horizontal",
+      "theme":"",
+      "style":{
+          "height":"6.4rem",
+          "lineHeight":"6.4rem"
+      },
+      "items":[
+        {
+          "key":"首页",
+          "icon":"home",
+          "disabled":false,
+          "txt":"首页",
+          "url":"/",
+          "hasChild":false,
+          "component":"Home",
+          "child":{}
+        },
+        {
+          "key":"营销",
+          "icon":"solution",
+          "disabled":true,
+          "txt":"营销",
+          "url":"/marketing/search",
+          "hasChild":true,
+          "child":{
+            "key":"组别1",
+            "isGroup":false,
+            "data":[
+              {
+                "groupTitle":"",
+                "icon":"",
+                "child":[
+                  {
+                    "key":"自助查询",
+                    "icon":"",
+                    "txt":"自助查询",
+                    "url":"/marketing/search",
+                    "hasChild":false
+                  },
+                  {
+                    "key":"服务查询",
+                    "icon":"",
+                    "txt":"服务查询",
+                    "url":"/marketing/server",
+                    "hasChild":false
+                  },
+                  {
+                    "key":"跟踪分析",
+                    "icon":"",
+                    "txt":"跟踪分析",
+                    "url":"/marketing/tracking",
+                    "hasChild":false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key":"在线分析",
+          "icon":"area-chart",
+          "disabled":true,
+          "txt":"在线分析",
+          "url":"",
+          "hasChild":true,
+          "child":{
+            "key":"31",
+            "isGroup":false,
+            "data":[
+              {
+                "groupTitle":"item1",
+                "icon":"",
+                "child":[
+                  {
+                    "key":"即席分析",
+                    "icon":"",
+                    "txt":"即席分析",
+                    "url":"",
+                    "hasChild":false
+                  },
+                  {
+                    "key":"导入分析",
+                    "icon":"",
+                    "txt":"导入分析",
+                    "url":"",
+                    "hasChild":false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key":"画像",
+          "icon":"user",
+          "disabled":false,
+          "txt":"画像",
+          "url":"",
+          "hasChild":false,
+          "child":{}
+        },
+        {
+          "key":"报表",
+          "icon":"pie-chart",
+          "disabled":true,
+          "txt":"报表",
+          "url":"",
+          "hasChild":true,
+          "child":{
+            "key":"数据质量",
+            "isGroup":true,
+            "data":[
+              {
+                "groupTitle":"数据质量",
+                "icon":"",
+                "child":[
+                  {
+                    "key":"客户数据检核报表",
+                    "icon":"",
+                    "txt":"客户数据检核报表",
+                    "url":"",
+                    "hasChild":false
+                  }
+                ]
+              },
+              {
+                "groupTitle":"运维报表",
+                "icon":"",
+                "child":[
+                  {
+                    "key":"数据采集结果查询",
+                    "icon":"",
+                    "txt":"数据采集结果查询",
+                    "url":"",
+                    "hasChild":false
+                  },
+                  {
+                    "key":"数据采集差异分析",
+                    "icon":"",
+                    "txt":"数据采集差异分析",
+                    "url":"",
+                    "hasChild":false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "key":"配置",
+          "icon":"setting",
+          "disabled":true,
+          "txt":"配置",
+          "url":"",
+          "hasChild":true,
+          "child":{
+            "key":"61",
+            "isGroup":false,
+            "data":[
+              {
+                "groupTitle":"权限管理",
+                "icon":"",
+                "child":[
+                  {
+                    "key": "权限管理",
+                    "icon": "",
+                    "url":"",
+                    "txt": "权限管理",
+                    "hasChild": true,
+                    "child": {
+                      "key": "6111",
+                      "isGroup": false,
+                      "data": [
+                        {
+                          "groupTitle": "item1",
+                          "icon": "",
+                          "child": [
+                            {
+                              "key": "组织架构",
+                              "icon": "",
+                              "txt": "组织架构",
+                              "url":"",
+                              "hasChild": false
+                            },
+                            {
+                              "key": "用户管理",
+                              "icon": "",
+                              "txt": "用户管理",
+                              "url":"",
+                              "hasChild": false
+                            },
+                            {
+                              "key": "角色管理",
+                              "icon": "",
+                              "txt": "角色管理",
+                              "url":"",
+                              "hasChild": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": "基础数据",
+                    "icon": "",
+                    "txt": "基础数据",
+                    "url":"",
+                    "hasChild": true,
+                    "child": {
+                      "key": "6121",
+                      "isGroup": false,
+                      "data": [
+                        {
+                          "groupTitle": "item1",
+                          "icon": "",
+                          "child": [
+                            {
+                              "key": "产品管理",
+                              "icon": "",
+                              "txt": "产品管理",
+                              "url":"",
+                              "hasChild": true,
+                              "child":{
+                                "key": "612111",
+                                "isGroup": false,
+                                "data":[
+                                  {
+                                    "groupTitle": "item1",
+                                    "icon": "",
+                                    "child":[
+                                      {
+                                        "key": "项目管理",
+                                        "icon": "",
+                                        "txt": "项目管理",
+                                        "url":"",
+                                        "hasChild": false
+                                      },
+                                      {
+                                        "key": "楼栋管理",
+                                        "icon": "",
+                                        "txt": "楼栋管理",
+                                        "url":"",
+                                        "hasChild": false
+                                      },
+                                      {
+                                        "key": "组织映射",
+                                        "icon": "",
+                                        "txt": "组织映射",
+                                        "url":"",
+                                        "hasChild": false
+                                      },
+                                      {
+                                        "key": "项目映射",
+                                        "icon": "",
+                                        "txt": "项目映射",
+                                        "url":"",
+                                        "hasChild": false
+                                      },
+                                      {
+                                        "key": "楼栋映射",
+                                        "icon": "",
+                                        "txt": "楼栋映射",
+                                        "url":"",
+                                        "hasChild": false
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "key": "标签管理",
+                              "icon": "",
+                              "txt": "标签管理",
+                              "url":"",
+                              "hasChild": true,
+                              "child":{
+                                "key": "612121",
+                                "isGroup": false,
+                                "data":[
+                                  {
+                                    "groupTitle": "item1",
+                                    "icon": "",
+                                    "child":[
+                                      {
+                                        "key": "业务标签",
+                                        "icon": "",
+                                        "txt": "业务标签",
+                                        "url":"",
+                                        "hasChild": false
+                                      },
+                                      {
+                                        "key": "基础标签",
+                                        "icon": "",
+                                        "txt": "基础标签",
+                                        "url":"",
+                                        "hasChild": false
+                                      },
+                                      {
+                                        "key": "印象标签",
+                                        "icon": "",
+                                        "txt": "印象标签",
+                                        "url":"",
+                                        "hasChild": false
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": "数据质量",
+                    "icon": "",
+                    "txt": "数据质量",
+                    "url":"",
+                    "hasChild": true,
+                    "child": {
+                      "key": "6131",
+                      "isGroup": false,
+                      "data": [
+                        {
+                          "groupTitle": "item1",
+                          "icon": "",
+                          "child": [
+                            {
+                              "key": "客户检核",
+                              "icon": "",
+                              "txt": "客户检核",
+                              "url":"",
+                              "hasChild": true,
+                              "child":{
+                                "key": "613111",
+                                "isGroup": false,
+                                "data":[
+                                  {
+                                    "groupTitle": "item1",
+                                    "icon": "",
+                                    "child":[
+                                      {
+                                        "key": "客户备份",
+                                        "icon": "",
+                                        "txt": "客户备份",
+                                        "url":"",
+                                        "hasChild": false
+                                      },
+                                      {
+                                        "key": "客户检核结果",
+                                        "icon": "",
+                                        "txt": "客户检核结果",
+                                        "url":"",
+                                        "hasChild": false
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": "参数配置",
+                    "icon": "",
+                    "txt": "参数配置",
+                    "url":"",
+                    "hasChild": true,
+                    "child": {
+                      "key": "6141",
+                      "isGroup": false,
+                      "data": [
+                        {
+                          "groupTitle": "item1",
+                          "icon": "",
+                          "child": [
+                            {
+                              "key": "功能配置",
+                              "icon": "",
+                              "txt": "功能配置",
+                              "url":"",
+                              "hasChild": false
+                            },
+                            {
+                              "key": "业态配置",
+                              "icon": "",
+                              "txt": "业态配置",
+                              "url":"",
+                              "hasChild": false
+                            },
+                            {
+                              "key": "特征配置",
+                              "icon": "",
+                              "txt": "特征配置",
+                              "url":"",
+                              "hasChild": false
+                            },
+                            {
+                              "key": "码表配置",
+                              "icon": "",
+                              "txt": "码表配置",
+                              "url":"",
+                              "hasChild": false
+                            },
+                            {
+                              "key": "系统参数",
+                              "icon": "",
+                              "txt": "系统参数",
+                              "url":"",
+                              "hasChild": false
+                            },
+                            {
+                              "key": "导出配置",
+                              "icon": "",
+                              "txt": "导出配置",
+                              "url":"",
+                              "hasChild": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": "接口管理",
+                    "icon": "",
+                    "txt": "接口管理",
+                    "url":"",
+                    "hasChild": true,
+                    "child": {
+                      "key": "6151",
+                      "isGroup": false,
+                      "data": [
+                        {
+                          "groupTitle": "item1",
+                          "icon": "",
+                          "child": [
+                            {
+                              "key": "接入应用配置",
+                              "icon": "",
+                              "txt": "接入应用配置",
+                              "url":"",
+                              "hasChild": false
+                            },
+                            {
+                              "key": "开放接口配置",
+                              "icon": "",
+                              "txt": "开放接口配置",
+                              "url":"",
+                              "hasChild": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "key": "日志管理",
+                    "icon": "",
+                    "txt": "日志管理",
+                    "url":"",
+                    "hasChild": true,
+                    "child": {
+                      "key": "6161",
+                      "isGroup": false,
+                      "data": [
+                        {
+                          "groupTitle": "item1",
+                          "icon": "",
+                          "child": [
+                            {
+                              "key": "接口日志",
+                              "icon": "",
+                              "txt": "接口日志",
+                              "url":"",
+                              "hasChild": false
+                            },
+                            {
+                              "key": "操作日志",
+                              "icon": "",
+                              "txt": "操作日志",
+                              "url":"",
+                              "hasChild": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+  }
+}
