@@ -17,7 +17,7 @@ class List_3 extends React.Component{
         this.state={
             picIndex:0,//imgData下的第n张初始显示
             imgData:[//全部图片数据
-                "./../../../../images/food_01.jpg",
+                "./../../../../images/pic_01.jpg",
                 "./../../../../images/food_02.jpg",
                 "./../../../../images/food_03.jpg",
                 "./../../../../images/girl.jpg",
@@ -54,8 +54,8 @@ class List_3 extends React.Component{
         return (
             <div className="views-zoom">
                 <h3>Try to move the mouse on the picture!</h3>
-                <div style={{width:"50%"}}>
-                    <div>
+                <div style={{width:"50%"}} >
+                    <div className="zoom-box">
                         <Zoom
                             zoomRate="3"
                             smallPic={picUrl}

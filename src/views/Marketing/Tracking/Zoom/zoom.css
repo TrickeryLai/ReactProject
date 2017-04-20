@@ -1,9 +1,9 @@
 
-.views-zoom .zoom-pic{
-    margin:0 auto;
-    display:inline-block;
-    width:100%;
+.views-zoom .zoom-box{
+    padding:0 20%;
+}
 
+.views-zoom .zoom-pic{
 }
 
 .views-zoom .choice-pic-box{
